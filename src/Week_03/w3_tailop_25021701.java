@@ -1,5 +1,7 @@
 package Week_03;
 import java.util.Scanner;
+import java.util.Stack;
+
 public class w3_tailop_25021701 {
     public static int doUuTien(char c) {
         if (c == '+' || c == '-') return 1;
