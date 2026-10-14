@@ -6,8 +6,8 @@ public class bubbleSort {
             for (int j =1 ; j<= n-1 ;j++){
                 if ( a[j] > a[ j +1]){
                     int tmp = a[j];
-                    a[j] = a[j+1];
-                    a[j+1] = tmp;
+                    a[j]= a[j+1];
+                    a[j+1]= tmp;
                 }
             }
         }
