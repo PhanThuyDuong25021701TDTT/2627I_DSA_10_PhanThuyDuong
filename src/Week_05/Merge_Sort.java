@@ -18,7 +18,6 @@ public class Merge_Sort {
         for (int k = lo; k <= hi; k++) {
             aux[k] = a[k];
         }
-
         int i = lo, j = mid + 1;
         for (int k = lo; k <= hi; k++) {
             if (i > mid) {

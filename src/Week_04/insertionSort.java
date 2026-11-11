@@ -6,20 +6,19 @@ public class insertionSort {
 
     // Thuật toán Insertion Sort chuẩn chỉ số Java (từ 0 đến n-1)
     public static void insertionSort(int[] a, int n) {
-        for ( int i=2; i<=n;i++){
+        for( int i=2; i<=n;i++){
             int tmp= a[i];
-            int j=i-1;
+            int j= i-1;
             boolean ok= false;
-            while (j>=1&& !ok){
+            while(j>=1 && !ok){
                 if (a[j]>tmp){
                     a[j+1]=a[j];
                     j--;
                 }else{
-                    ok= true;
+                    ok=true;
                 }
-
             }
-            a[j+1]=tmp;
+            a[j+1]= tmp;
 
         }
     }
